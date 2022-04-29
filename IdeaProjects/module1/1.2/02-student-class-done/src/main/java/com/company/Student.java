@@ -1,0 +1,24 @@
+package com.company;
+
+public class Student {
+
+    private String name;
+    private double gpa;
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public Student(String name, double gpa){
+        this.name = name;
+        this.gpa = gpa;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
+
+    public void greet(){
+        System.out.println("Hello, I am " + name +" and I have a " + gpa + " GPA." );
+    }
+}
